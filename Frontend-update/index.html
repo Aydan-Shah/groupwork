@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Frontend</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/frontend-icon-6.jpg" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--  Header  -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <a href="index.html" class="d-flex">
+          <img src="assets/img/code-removebg-preview.png" alt="" class="img-fluid me-2">
+          <span class="fs-3 text-black fw-bold">Frontend4</span>
+        </a>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active " href="index.html">Ana Səhifə</a></li>
+          <li><a href="#memberOfGroup">Haqqımızda</a></li>
+          <li class="dropdown"><a href="#"><span>Roadmap</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#html">HTML</a></li>
+              <li><a href="#css">CSS</a></li>
+              <li><a href="#js">JavaScript</a></li>
+              <li><a href="#framework">Framework</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <!--  Main Section -->
+  <section class="hero-section" id="hero">
+    <div class="wave">
+      <svg width="100%" height="355px" viewBox="0 0 1920 355" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
+            <path
+              d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,757 L1017.15166,757 L0,757 L0,439.134243 Z"
+              id="Path"></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 hero-text-image">
+          <div class="row">
+            <div class="col-lg-8 text-center text-lg-start">
+              <h1 data-aos="fade-right">Frontend nədir?</h1>
+              <p class="mb-5 text-light" data-aos="fade-right" data-aos-delay="100">İstifadəçi brauzerə bir veb
+                sayt ünvanı daxil etdikdə (müştəri proqramı), serverə müvafiq sorğu göndərilir, sonra cavab olaraq
+                ekranda bir neçə məzmun göstərilir. Bu, frontend və ya "müştəri tərəfi" (client – side) proqramlaşdırma
+                adlanır.</p>
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500">
+                <a href="https://medium.com/3mig4/frontend-v%C9%99-backend-anlay%C4%B1%C5%9F%C4%B1-n%C9%99dir-onlar%C4%B1n-biri-birind%C9%99n-f%C9%99rql%C9%99ri-n%C9%99dir-a796dade93ff"
+                  target="_blank" class="btn btn-outline-white">Daha çox məlumat</a></p>
+            </div>
+            <div class="col-lg-4 iphone-wrap">
+              <img src="./assets/img/iphone.svg" class="phone" alt="Image" data-aos="fade-right">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-5" data-aos="fade-up">
+            <h2 class="section-heading" id="programming_lang">Frontend dilləri</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+                <img class="icon" src="assets/img/html.png" alt="">
+              </div>
+              <h3 class="mb-3">HTML</h3>
+              <p>Frontend üçün fundemental dildir. Veb brouzerlər bu dil sayəsində işləyirlər. HTML brouzerlərdə
+                displaydə əks olunur.</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+                <img class="icon" src="./assets/img/css.png" alt="">
+              </div>
+              <h3 class="mb-3">CSS</h3>
+              <p>HTML dilini müşayiət edir. CSS veb saytlarda stilləri
+                dəyişdirmək üçün (rəngləndirmə, responsiv dizayn və s.) üçün istidadə olunur.
+                Hansı ki rəngləri , fontları dəyişməkdə kömək edir.</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-1 text-center">
+              <div class="wrap-icon icon-1">
+                <img class="icon" src="assets/img/js.png" alt="">
+              </div>
+              <h3 class="mb-3">Javascript</h3>
+              <p>Menyular, modal pəncərələr və kontakt formaları kimi daha interaktiv elementlər üçün istifadə olunan
+                proqramlaşdırma dilidir.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- programming code example -->
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5" data-aos="fade">
+          <div class="col-md-6 mb-5">
+            <img src="assets/img/undraw_svg_1.svg" alt="Image" class="img-fluid">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="step">
+              <span class="number">01</span>
+              <h3>Html Code</h3>
+              <p>
+                <span>Hello World:)</span>
+                <img src="assets/img/codehtml.png" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="step">
+              <span class="number">02</span>
+              <h3>Css Code</h3>
+              <p>
+                <span>Red Hello World:)</span>
+                <img src="assets/img/csscode.jpg" alt="">
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="step">
+              <span class="number">03</span>
+              <h3>Js Code</h3>
+              <p>
+                <span>This page says Hello World:)</span>
+                <img src="assets/img/jscode.jpg" alt="">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- html -->
+    <section class="section" id="html">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 me-auto">
+            <p class="mb-4" data-aos="fade-left">
+              HTML (ing. Hypertext Markup Language) — brauzerin oxuya biləcəyi hər hansı sənədi və ya səhifəni yaratmaq
+              üçün xüsusi hipermətn dilidir. HTML internetin fundamental baza texnologiyasıdır və veb-səhifənin növünü,
+              funksiyasını təyin edən diskriptorlar əsasında yaradılmış dildir.
+              Bütün veb-qovşaqlarda toplanmış və internetə qoşulmuş kompüterlərin ekranlarında göstərilən sənədlər HTML
+              proqram kodunda yazılırlar. HTML – səhifələrdə mətn bloklarının, təsvirlərin yerləşdirilməsinə,
+              cədvəllərin qurulmasına, sənədin və sənəddəki mətnin rənglərinin seçilməsinə, multimediya elementlərinin
+              əlavə edilməsinə, hiperistinadların və bütün bu elementlər arasında əlaqələrin yaradılmasına imkan verir.
+              Hipermətn koduna malik olan fayllar (.htm) və (.html) genişləndirməsi ilə göstərilir.
+              2004-cü ildə HTML-in yeni versiyası HTML5-in yaradılmasına başlandı və 2014-cü il 28 Oktyabrda tamamlandı
+              və standardlaşdırıldı.
+            </p>
+          </div>
+          <div class="col-md-6 aos-init aos-animate" data-aos="fade-left">
+            <img src="assets/img/undraw_on_the_office_re_cxds.svg" data-aos="fade-left" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- css -->
+    <section class="section" id="css">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 ms-auto order-2">
+            <p class="mb-4" data-aos="fade-right">
+              CSS (ing. Cascading Style Sheets) — sənədin xarici görünüşünün, işarələmə dilinin istifadəsi ilə yazılmış,
+              formal təsvir dili. Adətən HTML və XHTML işarələmə dillərində yazılmış veb-səhifələrin təsviri və
+              tərtibatı üçün istifadə edilir, lakin istənilən digər XML sənədlərə, məsələn, SVG və ya XUL-a da tətbiq
+              edilə bilər.
+              HTML sənədlərini yaradarkən veb-dizaynerlər müxtəlif mürəkkəb məsələlərlə qarşılaşırlar:
+              <li>müəyyən abzas daxilində şifrələrin dəyişdirilməsi</li>
+              <li>mətnin və ya təsvirin sənədin hər hansı bir yerində yerləşdirilməsi</li>
+              <li>mətnin və ya fonun rənginin dəyişdirilməsi</li>
+              <li>müxtəlif verilənlər cədvəllərinin format edilməsi və s</li>
+              CSS standartından heç bir məhdudiyyət qoyulmadan istənilən serverdə istifadə etmək olar.
+            </p>
+          </div>
+          <div class="col-md-6 aos-init aos-animate">
+            <img src="assets/img/undraw_social_girl_re_kdrx.svg" data-aos="fade-right" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Javascript -->
+    <section class="section" id="js">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 me-auto">
+            <p class="mb-4" data-aos="fade-left">
+              JavaScript – internet səhifələrin yaradılmasında geniş istifadə olunan proqramlaşdırma dilidir. JavaScript
+              müxtəlif dilllərdən ilhamlanaraq yaradılmışdır. 1995-ci ilə Brendan Eyx tərəfindən yazılmışdır. JavaScript
+              Obyekt Yönümlü Proqramlaşdırma (OYP) dilidir. Obyektə Yönümlü Proqramlaşdırma mövzusu kifayət qədər
+              mürəkkəb proqramlaşdırmadır. JavaScript Netscape Navigator 2.0 ilə birlikdə Brendan Eich tərəfindən
+              inkişaf etdirilən və əvvəllər Mocha sonralar LiveScript olaraq adlandırılan və sonda bu anki adını alan
+              JavaScript dili başlanğıcda sadəcə müştəri tərəfindən (client-side) şərh edilən bir proqramlaşdırma
+              dilidir.
+              Günümüzdə NodeJS texnologiyası ilə server tərəfli də (server-side) şərh edilən proqramlama dili halına
+              gəldi. JavaScript - HTML səhifəyə inteqrasiya olunaraq, bu səhifə ilə istifadəçi arasındakı interfeysə
+              əlavə funksional imkanlar verən alqoritmik dildir.
+            </p>
+          </div>
+          <div class="col-md-6 aos-init aos-animate">
+            <img src="assets/img/undraw_organizing_projects_re_9p1k.svg" data-aos="fade-left" alt="Image"
+              class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- framework -->
+    <section class="section" id="framework">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 ms-auto order-2">
+            <p class="mb-4" data-aos="fade-right">
+              Bootstrap - veb səhifələri və tətbiqetmələri yaratmaq üçün istifadə olunan açıq mənbə alətidir və HTML və
+              CSS vasitəsiylə yazı növləri, formlar, düymələr, navigasiya və başqa komponentlər üçün istifadə olunan
+              xüsusi dizayn qəliblərindən ibarətdir. Əsas hədəf dinamik veb səhifələri, veb tətbiqetmələri yaratmaq və
+              onların inkişafını sadələşdirməkdir.
+              <br>
+              Jquery - 2006-cı ildə Con Reziq tərəfindən istifadəyə buraxılmışdır. Hal-hazırda Dave Methvin rəhbərlik
+              etdiyi komanda tərəfindən inkişaf etdirilir. jQuery JavaScript kitabxanaları arasında ən çox istifadə
+              olunan kitabxanadır. 10,000 ən çox ziyarət edilən saytın 55%-də jQuery istifadə edilib.
+              JQuery kitabxanası, tapşırıqların maksimum geniş mühiti üçün faydalı funksionallığı mövcuddur.
+            </p>
+          </div>
+          <div class="col-md-6 aos-init aos-animate">
+            <img src="assets/img/undraw_prototyping_process_re_7a6p.svg" data-aos="fade-right" alt="Image"
+              class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- member of group -->
+    <section class="section border-top border-bottom" id="memberOfGroup">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-6">
+            <h2 class="section-heading">Komanda üzvləri</h2>
+          </div>
+        </div>
+        <div class="about-member">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3>
+                  <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </h3>
+                <p>
+                  Mən Aydan Şahalıyeva 20 yaşım var.
+                  2019-cu ildə İsmayıllı şəhər 5 saylı tam orta məktəbini fərqlənmə attestatı ilə bitirib Azərbaycan
+                  Dövlət Neft və
+                  Sənaye Universitetibə qəbul olmuşam. Hal-hazırda Kompüter mühəndisliyi ixtisasında 3-cü kursda
+                  təhsil alıram. Full Stack proqramçı olmaq üçün çalışıram. Frontend proqramlaşdırma üzrə
+                  təlimlər keçirəm.
+                </p>
+                <div class="member-image">
+                  <img src="assets/img/WhatsApp Image 2021-12-30 at 21.15.35.jpeg" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h3>
+                  <span><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span>
+                </h3>
+                <p>
+                  Mən Aysel Abdullayeva, 20 yaşım var. 128 nömrəli tam orta məktəbi
+                  bitirmişəm. Hazırda Xəzər universitetinin 3 cü kurs tələbəsiyəm.
+                  Riyaziyyat və informatika müəllimliyini oxuyuram.
+                </p>
+                <div class="member-image">
+                  <img src="assets/img/aysel.jfif" alt="...">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- do you want to be a programmer -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
+            <h2>Səndə Frontend proqramçı olmaq istəyirsən?</h2>
+          </div>
+          <div class="col-md-5 text-center text-md-end">
+            <p>
+              <a href="https://roadmap.sh/frontend" class="btn d-inline-flex align-items-center"><span>Frontend Yol
+                  Xəritəsi</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="allRightsAndLinks">
+            <div class="allRight">
+              <p class="copy4">Bütün hüquqlar qorunur. ©Copyright <span><a href="index.html">Frontend4.</a></span></p>
+            </div>
+            <div class="links">
+              <ul>
+                <li class="home"><a href="https://www.w3schools.com/html/" target="_blank">Html</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">Css</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a></li>
+                <li><a href="https://www.w3schools.com/bootstrap5/" target="_blank">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/jquery/" target="_blank">Jquery</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- backtotop -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i>
+    </a>
+  </main>
+  <!-- js file -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
